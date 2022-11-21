@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: bisque;
+}
+.container{
+    display:grid;
+    width:600px;
+    height:600px;
+    border-color: black;
+    border-style:solid;
+    border-width:5px;
+    border-radius:10px;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+}
+.col{
+    border-color: black;
+    border-style:dotted;
+    border-width:.2px;
+    flex:1 1 100%;
+}
+.heading{
+    font-weight:800;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.sketchboard{
+    display:flex;
+    justify-content: space-evenly;
+    gap:30px;
+}
+.iconscontainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+}
+.icon{
+    height:100px;
+    width:100px;
+    border-radius:20px;
+}
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:30px;
+}
